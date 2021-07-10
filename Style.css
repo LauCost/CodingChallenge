@@ -1,0 +1,75 @@
+body {
+    background-image: url("background.jpg") ;
+    background-attachment: fixed;
+    background-repeat: round;
+    color: white;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    padding: 5%;
+    border-radius: 10px;
+}
+
+/* Parte riguardante l'header con il logo*/
+
+.logo {
+    width: 25%;
+}
+
+header {
+    text-align: center;
+}
+
+header > h1 {
+    color: #00ff00;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Parte riguardante il nav*/
+
+nav > div {
+    background-color: #00ff00 ;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: -5px;
+}
+
+/*Parte riguardante il main*/
+
+main > .minimain {
+    padding:25px 0px;
+}
+
+.minimain > strong {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.minimain > span {
+    font-family: 'Poppins', sans-serif;
+}
+
+#vuoto1 {
+    background-color: #ffbc40;
+    height: 30px;
+    width: 35%;
+    border-radius: 5px;
+}
+
+#vuoto2 {
+    background-color: #11ff39;
+    height: 30px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+#vuoto3 {
+    background-color: #ff3c7d;
+    height: 30px;
+    width: 15%;
+    border-radius: 5px;
+}
